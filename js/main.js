@@ -15,7 +15,7 @@ $(document).ready(function() {
 				});
 
 				//Function for changing to checked item
-				$( ".list-item" ).on("click", ".check-done", function(event){
+				$( "input" ).on("click", ".check-done", function(event){
 					$(this).parent(".list-item")
 					.toggleClass("active-item checked-item");
 				});
