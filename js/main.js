@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	//Function for adding new item
-	$( "body" ).on("click", ".button", function(event) {
+	$( "#list-container" ).on("click", ".button", function(event) {
     	var newItem = $('#itemAdd').val();
 
 
@@ -15,7 +15,7 @@ $(document).ready(function() {
 				});
 
 				//Function for changing to checked item
-				$( "input" ).on("click", ".check-done", function(event){
+				$( ".list-item" ).on("click", ".check-done", function(event){
 					$(this).parent(".list-item")
 					.toggleClass("active-item checked-item");
 				});
