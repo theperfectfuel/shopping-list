@@ -31,6 +31,12 @@ li {
 	display: block;
 }
 
+.list-heading {
+	font-size: 1.4em;
+	color: #2c2c2c;
+	text-align: center;
+}
+
 .create-item {
 	min-width: 18em;
 	margin: 0 20px 5px 0;
